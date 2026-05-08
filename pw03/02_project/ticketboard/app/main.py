@@ -16,7 +16,8 @@ app.add_middleware(
 )
 
 # Hardcoded – wird in dieser Woche durch .env ersetzt!
-DATABASE_URL = "postgresql://ticketuser:secret@db:5432/ticketdb"
+import os
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 engine = create_engine(DATABASE_URL)
 
