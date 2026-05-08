@@ -1,7 +1,7 @@
 # Fragen – Integration der Services (DL10)
 
-Name: <Nachname> <Vorname>
-Klasse: <Klasse>
+Name: <Elias> <Raess>
+Klasse: <INA24dL>
 
 ---
 
